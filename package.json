@@ -13,5 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "google-closure-library": "^20160315.0.0"
+  },
+  "devDependencies": {
+    "grunt-closure-tools": "~0.9.9",
+    "grunt": "~1.0.1"
   }
 }

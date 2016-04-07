@@ -44,3 +44,6 @@ this.needsPaintJob_ = needsPaintJob; };
 /* some implementation */ };
 /** @return {number} */ example.House.prototype.getNumberOfItemsInTheGarage = function() {
 return this.itemsInTheGarage.length; };
+
+// Ensures the symbol will be visible after compiler renaming.
+goog.exportSymbol('example.House', example.House);

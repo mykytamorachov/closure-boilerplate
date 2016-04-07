@@ -7,3 +7,6 @@ example.emailValidator.isValid = function(emailAddress) {
 		return false; 
 	}
 };
+
+// Ensures the symbol will be visible after compiler renaming.
+goog.exportSymbol('example.emailValidator', example.emailValidator);
